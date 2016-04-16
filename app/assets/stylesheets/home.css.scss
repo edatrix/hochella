@@ -9,6 +9,42 @@
   font-style: normal;
 }
 
-h1 {
-  font-family: ChellaType-Regular;
+.index-header {
+  position: relative;
+  clear: both;
+}
+
+.header-text {
+  position: absolute;
+  z-index: 100;
+  width: 100%;
+  margin-top: 45px;
+  text-align: center;
+  color: #fff;
+  #header {
+    font-size: 40px;
+    font-family: ChellaType-Regular;
+  }
+}
+
+#mountains-wide {
+  margin-top: -90px;
+  width: 100%;
+  max-height: 700px;
+}
+
+.menu-bar {
+  background: #03193D;
+  margin-top: -200px;
+}
+
+.menu-item {
+  color: #fff;
+  text-align: center;
+}
+
+#box-1, #box-2, #box-3 {
+  margin-top: -150px;
+  background-color: white;
+  height: 400px;
 }
