@@ -13,13 +13,19 @@
 <div class="row">
   <div class="col-sm-12 menu-bar">
     <div class="col-sm-4 menu-item">
-      <h3>about</h3>
+      <%= link_to about_path do %>
+        <h3>about</h3>
+      <% end %>
     </div>
     <div class="col-sm-4 menu-item">
-      <h3>lineup</h3>
+      <%= link_to lineup_path do %>
+        <h3>lineup</h3>
+      <% end %>
     </div>
     <div class="col-sm-4 menu-item">
-      <h3>get ready</h3>
+      <%= link_to get_ready_path do %>
+        <h3>get ready</h3>
+      <% end %>
     </div>
   </div>
 </div>
