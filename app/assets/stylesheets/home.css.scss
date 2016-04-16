@@ -9,6 +9,10 @@
   font-style: normal;
 }
 
+.row {
+  background: #eee;
+}
+
 .index-header {
   position: relative;
   clear: both;
@@ -43,8 +47,18 @@
   text-align: center;
 }
 
-#box-1, #box-2, #box-3 {
+#box-1 {
   margin-top: -150px;
-  background-color: white;
-  height: 400px;
+}
+
+#box-1, #box-2, #box-3 {
+  padding: 45px;
+  background-color: #eee;
+  text-align: center;
+  img {
+    max-width: 500px;
+  }
+  h3 {
+    margin-top: 20%;
+  }
 }
