@@ -12,5 +12,9 @@
  *
  *= require_tree .
  *= require_self
+ *= require_about
  */
 
+body {
+  background-color: #ddd !important;
+}
