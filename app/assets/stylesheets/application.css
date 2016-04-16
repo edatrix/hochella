@@ -13,8 +13,5 @@
  *= require_tree .
  *= require_self
  *= require_about
+ *= require_lineup
  */
-
-body {
-  background-color: #ddd !important;
-}

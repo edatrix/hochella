@@ -1,1 +1,18 @@
-lineup
+<div class="container">
+  <h4 id="featuring">featuring</h4>
+  <h1 class="lineup-header">the witches west</h1>
+
+  <div class="row" id="witch-list">
+    <% ApplicationHelper::WITCHES.each do |witch| %>
+      <div class="col-sm-4 witch-box">
+        <div class="img-border">
+          <%= image_tag "#{witch[:image]}", :alt_text => "#{witch[:name]}", :class => "witch-pics" %>
+        </div>
+
+        <h3 class="witch-name">
+          <%= "#{witch[:name]}" %>
+        </h3>
+      </div>
+    <% end %>
+  </div>
+</div>
