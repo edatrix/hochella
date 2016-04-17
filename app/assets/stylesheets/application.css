@@ -15,3 +15,19 @@
  *= require_about
  *= require_lineup
  */
+
+#footer-container {
+  padding-left: 5%;
+  color: #337ab7;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.footer {
+  margin-bottom: 3px;
+}
+
+.white:hover {
+  color: #fff;
+  text-decoration: none;
+}
