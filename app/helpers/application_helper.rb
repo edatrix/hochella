@@ -2,6 +2,12 @@ module ApplicationHelper
 
   WITCHES = [
     {
+      :name => "Annie",
+      :image => "annie.jpg",
+      :about => "",
+      :symbol => "",
+    },
+    {
       :name => "Brianne",
       :image => "brianne.jpg",
       :about => "",
