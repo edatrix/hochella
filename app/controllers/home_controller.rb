@@ -9,4 +9,7 @@ class HomeController < ApplicationController
   def get_ready
   end
 
+  def flights
+  end
+
 end

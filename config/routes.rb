@@ -3,4 +3,5 @@ Rails.application.routes.draw do
   get '/about', :to => "home#about"
   get '/lineup', :to => "home#lineup"
   get '/get_ready', :to => "home#get_ready"
+  get '/flights', :to => "home#flights"
 end

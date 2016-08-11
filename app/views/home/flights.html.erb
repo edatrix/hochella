@@ -1,0 +1,23 @@
+<div class="row">
+  <div class="col-md-6" id="flight-info">
+  <table class="table table-striped">
+    <tr>
+      <th>Name</th>
+      <th>Arrival</th>
+      <th>Departure</th>
+    </tr>
+    <% ApplicationHelper::WITCHES.each do |witch| %>
+    <tr>
+      <td><%= witch[:name] %></td>
+      <td><%= witch[:arrival].html_safe %></td>
+      <td><%= witch[:departure].html_safe %></td>
+    </tr>
+    <% end %>
+  </table>
+  </div>
+  <div class="col-md-6">
+    <div>
+      <%= image_tag "crystal_crown.jpg", :id => "crystal_crown" %>
+    </div>
+  </div>
+</div>
